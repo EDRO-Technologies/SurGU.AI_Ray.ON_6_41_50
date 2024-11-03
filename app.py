@@ -156,7 +156,7 @@ def main():
             load_session_state(selected_session, 'test.pkl', user_id)
         else:   
             st.write("Нет доступных сессий")
-        st.write(st.session_state)
+        #st.write(st.session_state)
      
 if __name__ == '__main__':
     main()
