@@ -1,5 +1,4 @@
 import streamlit as st
-import emb_function
 import os
 from pypdf import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
